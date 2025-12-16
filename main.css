@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.left_body {
+    width: 40%;
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+.right_body {
+    width: 60%;
+    min-height: 100vh;
+    /* background-color: green; */
+
+}
+
+.right_body header {
+    background-image: url("ngLLDp.gif");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    padding: 5rem;
+}
