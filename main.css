@@ -12,6 +12,10 @@
     width: 40%;
     min-height: 100vh;
     background-color: aqua;
+    background-image: url("/tuaans-BrTOlwdX4kA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .right_body {
@@ -19,12 +23,37 @@
     min-height: 100vh;
     /* background-color: green; */
 
+    padding: 5rem;
+
 }
 
+
 .right_body header {
-    background-image: url("ngLLDp.gif");
-    background-size: contain;
-    /* background-repeat: no-repeat; */
+    /* background-image: url("ngLLDp.gif"); */
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    padding: 5rem;
+    padding: 5rem 0rem;
+    background-color: azure;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 100px;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 350px;
+}
+
+main div input{
+    width: 100%;
+    max-width: 250px;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
 }
