@@ -23,37 +23,54 @@
     min-height: 100vh;
     /* background-color: green; */
 
-    padding: 5rem;
+    /* padding: 5rem 0rem; */
 
 }
 
 
-.right_body header {
+header {
     /* background-image: url("ngLLDp.gif"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 5rem 0rem;
     background-color: azure;
+    padding: 7rem 5rem;
+
 }
 
-main{
+main {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px black;
+    padding: 0rem 5rem 3rem 5rem;
+}
+
+h2 {
+    padding: 20px 0px;
+    /* margin: 20px 0px; */
+}
+
+.main_content {
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-between; */
-    gap: 100px;
+    gap: 25px;
 }
 
-main div{
+.main_content div {
     display: flex;
     flex-direction: column;
     flex: 1 1 350px;
 }
 
-main div input{
+.main_content div input {
     width: 100%;
     max-width: 250px;
     padding: 0.5rem;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 3rem 5rem;
 }
