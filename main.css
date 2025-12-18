@@ -21,12 +21,11 @@
 .right_body {
     width: 60%;
     min-height: 100vh;
-    /* background-color: green; */
-
-    /* padding: 5rem 0rem; */
-
 }
 
+.right_body_el{
+    padding: 3rem 5rem;
+}
 
 header {
     /* background-image: url("ngLLDp.gif"); */
@@ -34,7 +33,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-color: azure;
-    padding: 7rem 5rem;
+    padding: 7rem 0rem;
 
 }
 
@@ -42,7 +41,7 @@ main {
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 10px black;
-    padding: 0rem 5rem 3rem 5rem;
+    padding: 2rem 0rem;
 }
 
 h2 {
@@ -71,6 +70,6 @@ h2 {
     border-radius: 5px;
 }
 
-footer{
-    padding: 3rem 5rem;
+footer {
+    padding: 3rem 0rem;
 }
