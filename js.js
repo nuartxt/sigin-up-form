@@ -1,25 +1,29 @@
 console.log("Hi World!");
 
-
-// let user_data = [{
-//     firstName: "",
-//     lastName: "",
-//     email: "",
-//     phone: "",
-//     password: ""
-// }];
-
 let user_data = [];
-
-let createAccaunt = document.querySelector("#btn");
+let btn = document.querySelector("#btn");
 let input = document.querySelectorAll("input");
+let handler = document.querySelector(".handler");
+let handler_2 = document.querySelector(".handler_2");
+let user_name = document.querySelector("#user_name");
 
-
-createAccaunt.addEventListener("click", () => {
+btn.addEventListener("click", () => {
     let user = {};
     input.forEach(el => {
         user[el.name] = el.value;
-    })
-    user_data.push(user)
-    console.log(user_data);
-})
+    });
+    user_data.push(user);
+    user_name.textContent = user.first_name
+
+    console.log(user);
+
+    let user_values = Object.values(user);
+    if (user_values.every(el => el.length > 0)) {
+        handler.style.display = "none";
+        handler_2.style.display = "block";
+    }
+});
+
+
+
+

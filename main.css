@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-button{
+button {
     width: 250px;
     height: 50px;
     border: 1px solid black;
@@ -32,7 +32,7 @@ button{
     min-height: 100vh;
 }
 
-.right_body_el{
+.right_body_el {
     padding-left: 5rem;
     padding-right: 5rem;
 }
@@ -85,7 +85,26 @@ footer {
     padding-bottom: 2rem;
 }
 
-footer p{
+footer p {
     padding-top: 2rem;
     font-weight: 600;
+}
+
+
+
+.handler {
+    /* display: none; */
+}
+
+.handler_2 {
+    display: none;
+}
+
+.handler_2_content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10rem 10rem;
+
+    font-size: 4rem;
 }
