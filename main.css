@@ -27,6 +27,21 @@ button {
     background-position: center;
 }
 
+.left_body_text {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+    background-color: black;
+    opacity: 80%;
+}
+
+.left_body_text p{
+    color: #fff;
+    font-size: 50px;
+    /* opacity: 100%; */
+}
+
 .right_body {
     width: 60%;
     min-height: 100vh;
@@ -92,9 +107,9 @@ footer p {
 
 
 
-.handler {
-    /* display: none; */
-}
+/* .handler {
+    display: none;
+} */
 
 .handler_2 {
     display: none;
