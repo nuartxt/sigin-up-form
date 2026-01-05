@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
 }
 
 button {
@@ -36,7 +40,7 @@ button {
     opacity: 80%;
 }
 
-.left_body_text p{
+.left_body_text p {
     color: #fff;
     font-size: 50px;
     /* opacity: 100%; */
@@ -57,7 +61,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: azure;
+    background-color: #567c4f;
     padding-top: 9rem;
     padding-bottom: 3rem;
 }
@@ -68,6 +72,7 @@ main {
     box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
     padding-top: 1rem;
     padding-bottom: 2rem;
+    background-color: #ce1d4c;
 }
 
 h2 {
@@ -98,6 +103,7 @@ h2 {
 footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    background-color: #fac57d;
 }
 
 footer p {
@@ -107,9 +113,10 @@ footer p {
 
 
 
-/* .handler {
-    display: none;
-} */
+.handler {
+    display: block;
+    /* min-height: 100vh; */
+}
 
 .handler_2 {
     display: none;
