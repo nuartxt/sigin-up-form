@@ -3,8 +3,13 @@
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
+}
+
+body {
+    background-color: #fac57d;
 }
 
 button {
@@ -111,12 +116,6 @@ footer p {
     font-weight: 600;
 }
 
-
-
-.handler {
-    display: block;
-    /* min-height: 100vh; */
-}
 
 .handler_2 {
     display: none;
