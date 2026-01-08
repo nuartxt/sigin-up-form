@@ -105,6 +105,10 @@ h2 {
     border-radius: 5px;
 }
 
+#back {
+    display: none;
+}
+
 footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -128,4 +132,14 @@ footer p {
     padding: 10rem 10rem;
 
     font-size: 4rem;
+}
+
+
+.login_p {
+    display: none;
+
+}
+
+.sigin_p {
+    display: none;
 }
