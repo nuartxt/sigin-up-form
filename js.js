@@ -10,23 +10,23 @@ let user_name = document.querySelector("#user_name");
 let password = document.querySelector("#password");
 let confirm_password = document.querySelector("#confirm_password");
 let siginin = document.querySelector("#siginin");
-let confirm_input = document.querySelector(".confirm_password", "#confirm_password");
+let confirm_input = document.querySelector(".confirm_password");
 let goBackToLogin = document.querySelector("#back");
 let login_p = document.querySelector(".login_p");
 let sigin_p = document.querySelector(".sigin_p");
 
 
-siginin.addEventListener("click", () => {
-    confirm_password.style.display = "none";
-    confirm_input.style.display = "none";
-    goBackToLogin.style.display = "block"
-    siginin.style.display = "none"
-    input.forEach(el => {
-        el.value = "";
-    })
-    login_p.style.display = "none";
-    sigin_p.style.display = "block";
-})
+// siginin.addEventListener("click", () => {
+//     confirm_password.style.display = "none";
+//     confirm_input.style.display = "none";
+//     goBackToLogin.style.display = "block"
+//     siginin.style.display = "none"
+//     input.forEach(el => {
+//         el.value = "";
+//     })
+//     login_p.style.display = "none";
+//     sigin_p.style.display = "block";
+// })
 
 goBackToLogin.addEventListener("click", () => {
     confirm_password.style.display = "block";
